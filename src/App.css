@@ -1,0 +1,81 @@
+.App{
+  margin:50px 100px;
+}
+.App span{
+  cursor:pointer;
+}
+
+.list span{
+  cursor:pointer;
+ 
+
+}
+
+.list{
+  list-style-type: none;
+}
+
+.folder{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  width:10%;
+}
+.folder__one{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  width: 15%;
+}
+.folder__one:hover .editable svg {
+  display: inline-block;
+}
+
+.folder__one p{
+  margin-right: 20px;
+}
+.folder__one input{
+  margin:16px 0px;
+}
+.folder p{
+  margin:0px 20px 0px 2px;
+
+}
+.folder svg:nth-child(1){
+  height:20px;
+  display: block;
+}
+.editable svg:nth-child(1) {
+ display: none;
+ margin:0px 5px;
+ padding:0px;
+}
+.addFile svg:nth-child(1) {
+  display: none;
+  margin:0px 5px;
+  padding:0px;
+ }
+ .addFolder svg:nth-child(1) {
+  display: none;
+  margin:0px 5px;
+  padding:0px;
+ }
+.folder__one:hover .editable svg {
+  display: inline-block;
+  margin-top:-10px;
+}
+.folder__one:hover .addFile svg {
+  display: inline-block;
+  margin-top:-10px;
+}
+.folder__one:hover .addFolder svg {
+  display: inline-block;
+  margin-top:-10px;
+}
+
+.addfile__input{
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+  margin-top:10px;
+}
